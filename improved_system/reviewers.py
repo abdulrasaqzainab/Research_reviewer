@@ -1,4 +1,4 @@
-"""Reviewer selection and review collection."""
+"""Reviewer selection and review collection"""
 
 from __future__ import annotations
 
@@ -8,7 +8,7 @@ from .models import ReviewResult
 
 
 class ReviewerPool:
-    """Selects reviewers and collects review results."""
+    """Selects reviewers and collects review results"""
 
     def __init__(self) -> None:
         self.available_reviewers: List[str] = [

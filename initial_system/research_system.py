@@ -1,11 +1,4 @@
-"""Research Output Submission and Evaluation System (baseline).
-
-This file remains as the *public import surface* for backwards compatibility:
-
-    from initial_system.research_system import SubmissionController, Database, ...
-
-Internally, the implementation is split into focused modules under `initial_system/`
-to keep the codebase maintainable.
+"""Research Output Submission and Evaluation System 
 """
 
 from .controller import SubmissionController

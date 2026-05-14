@@ -1,4 +1,4 @@
-"""In-memory persistence and reviewer filtering."""
+"""In-memory persistence and reviewer filtering"""
 
 from __future__ import annotations
 
@@ -8,7 +8,7 @@ from .models import ResearchOutput, ReviewScore
 
 
 class Database:
-    """Manages all data persistence operations."""
+    """Manages all data persistence operations"""
 
     def __init__(self):
         self.submissions: Dict[str, ResearchOutput] = {}

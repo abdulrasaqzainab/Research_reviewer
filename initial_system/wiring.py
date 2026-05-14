@@ -1,4 +1,4 @@
-"""System initialization and demo entry point."""
+"""System initialization and demo entry point"""
 
 from __future__ import annotations
 
@@ -14,7 +14,7 @@ from .validation import ValidationManager
 
 
 def initialize_system() -> Tuple[SubmissionController, Researcher]:
-    """Create all components and wire them together."""
+    """Create all components and wire them together"""
 
     validation_manager = ValidationManager()
     database = Database()

@@ -1,4 +1,4 @@
-"""Researcher actor entry point."""
+"""Researcher actor entry point"""
 
 from __future__ import annotations
 
@@ -9,7 +9,7 @@ from .controller import SubmissionController
 
 
 class Researcher:
-    """Represents a researcher who submits research outputs."""
+    """Represents a researcher who submits research outputs"""
 
     def __init__(self, researcher_id: str, submission_controller: SubmissionController):
         self.researcher_id = researcher_id

@@ -1,4 +1,4 @@
-"""Domain models for the improved research system."""
+"""Domain models for the improved research system"""
 
 from __future__ import annotations
 
@@ -9,7 +9,7 @@ from typing import List, Optional
 
 
 class SubmissionStatus(Enum):
-    """Final decision values returned by the decision table."""
+    """Final decision values returned by the decision table"""
 
     ACCEPTED = "ACCEPTED"
     REJECTED = "REJECTED"
@@ -18,7 +18,7 @@ class SubmissionStatus(Enum):
 
 @dataclass
 class Submission:
-    """Submission payload passed through the workflow."""
+    """Submission payload passed through the workflow"""
 
     author: str
     title: str
@@ -29,7 +29,7 @@ class Submission:
 
 @dataclass
 class ReviewResult:
-    """Single review result collected from the reviewer pool."""
+    """Single review result collected from the reviewer pool"""
 
     reviewer_id: str
     submission_id: str
@@ -40,7 +40,7 @@ class ReviewResult:
 
 @dataclass
 class ValidationResult:
-    """Validation outcome returned by the validator."""
+    """Validation outcome returned by the validator"""
 
     is_valid: bool
     errors: List[str]
@@ -48,7 +48,7 @@ class ValidationResult:
 
 @dataclass
 class EvaluationOutcome:
-    """Final evaluation outcome returned to the controller."""
+    """Final evaluation outcome returned to the controller"""
 
     average: float
     consensus: bool

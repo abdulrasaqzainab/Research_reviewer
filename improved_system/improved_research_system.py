@@ -1,10 +1,4 @@
-"""Research output submission system aligned with the UML sequence diagram.
-
-This module is the backwards-compatible import surface:
-
-    import improved_system.improved_research_system as improved_research_system
-
-The implementation is split into smaller modules under `improved_system/`.
+"""Research output submission system 
 """
 
 from .actor import Researcher

@@ -1,4 +1,4 @@
-"""System initialization and demo entry point for the improved system."""
+"""System initialization and demo entry point for the improved system"""
 
 from __future__ import annotations
 
@@ -98,8 +98,7 @@ def _print_valid_submission_flow(researcher_id: str, result: Dict[str, object]) 
 
 
 def initialize_system() -> Tuple[Researcher, UI, OptimisedController]:
-    """Build the exact UML-matching object graph."""
-
+    
     validator = Validator()
     submission_repository = SubmissionRepository()
     reviewer_pool = ReviewerPool()

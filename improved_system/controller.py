@@ -1,4 +1,4 @@
-"""Optimised controller coordinating the end-to-end workflow."""
+"""Optimised controller coordinating the end-to-end workflow"""
 
 from __future__ import annotations
 
@@ -13,7 +13,7 @@ from .validation import Validator
 
 
 class OptimisedController:
-    """Coordinates the diagram flow from validation to notification."""
+    """Coordinates the diagram flow from validation to notification"""
 
     def __init__(
         self,

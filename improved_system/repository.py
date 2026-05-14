@@ -1,4 +1,4 @@
-"""Persistence layer for submissions and review scores (in-memory)."""
+"""Persistence layer for submissions and review scores"""
 
 from __future__ import annotations
 
@@ -8,7 +8,7 @@ from .models import ReviewResult, Submission
 
 
 class SubmissionRepository:
-    """Stores submissions and review scores."""
+    """Stores submissions and review scores"""
 
     def __init__(self) -> None:
         self.submissions: Dict[str, Submission] = {}

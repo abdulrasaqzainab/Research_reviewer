@@ -1,4 +1,4 @@
-"""UI participant from the UML sequence diagram."""
+"""UI participant"""
 
 from __future__ import annotations
 
@@ -8,7 +8,7 @@ from .controller import OptimisedController
 
 
 class UI:
-    """Represents the user interface in the UML sequence diagram."""
+    """Represents the user interface"""
 
     def __init__(self, controller: OptimisedController) -> None:
         self.controller = controller

@@ -1,4 +1,4 @@
-"""Researcher actor that initiates submissions."""
+"""Researcher actor that initiates submissions"""
 
 from __future__ import annotations
 

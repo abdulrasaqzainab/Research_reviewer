@@ -1,4 +1,4 @@
-"""Notification behavior for the improved system."""
+"""Notification behavior for the improved system"""
 
 from __future__ import annotations
 
@@ -9,7 +9,7 @@ from .models import SubmissionStatus
 
 
 class NotificationService:
-    """Creates the final notification payload for the researcher."""
+    """Creates the final notification payload for the researcher"""
 
     def __init__(self) -> None:
         self.notifications: List[Dict[str, object]] = []

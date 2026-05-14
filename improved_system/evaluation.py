@@ -1,4 +1,4 @@
-"""Evaluation logic for collected review results."""
+"""Evaluation logic for collected review results"""
 
 from __future__ import annotations
 
@@ -10,7 +10,7 @@ from .models import EvaluationOutcome, ReviewResult
 
 
 class EvaluationService:
-    """Evaluates collected review results and returns the outcome."""
+    """Evaluates collected review results and returns the outcome"""
 
     def __init__(self, decision_table: DecisionTable) -> None:
         self.decision_table = decision_table

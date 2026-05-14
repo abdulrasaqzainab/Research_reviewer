@@ -1,4 +1,4 @@
-"""Submission controller orchestrating the baseline workflow."""
+"""Submission controller orchestrating the baseline workflow"""
 
 from __future__ import annotations
 
@@ -14,7 +14,7 @@ from .validation import ValidationManager
 
 
 class SubmissionController:
-    """Main controller for research output submissions."""
+    """Main controller for research output submissions"""
 
     def __init__(
         self,

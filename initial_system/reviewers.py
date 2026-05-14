@@ -1,4 +1,4 @@
-"""Reviewer domain objects and assignment logic."""
+"""Reviewer domain objects and assignment logic"""
 
 from __future__ import annotations
 
@@ -9,7 +9,7 @@ from .models import ReviewScore
 
 
 class Reviewer:
-    """Represents a reviewer in the system."""
+    """Represents a reviewer in the system"""
 
     def __init__(self, reviewer_id: str):
         self.reviewer_id = reviewer_id
@@ -44,7 +44,7 @@ class Reviewer:
 
 
 class ReviewerManager:
-    """Manages reviewer assignment process."""
+    """Manages reviewer assignment process"""
 
     def __init__(self):
         self.reviewers: Dict[str, Reviewer] = {}

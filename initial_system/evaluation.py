@@ -1,4 +1,4 @@
-"""Evaluation coordination: collecting scores and triggering decision logic."""
+"""Evaluation coordination: collecting scores and triggering decision logic"""
 
 from __future__ import annotations
 
@@ -8,7 +8,7 @@ from .models import ReviewScore
 
 
 class EvaluationManager:
-    """Manages the evaluation and scoring process for submissions."""
+    """Manages the evaluation and scoring process for submissions"""
 
     def __init__(self):
         self.submission_scores: Dict[str, List[ReviewScore]] = {}

@@ -1,4 +1,4 @@
-"""Domain models (enums + dataclasses) for the research system."""
+"""Domain models """
 
 from __future__ import annotations
 
@@ -8,7 +8,7 @@ from enum import Enum
 
 
 class SubmissionStatus(Enum):
-    """Status of a research submission."""
+    """Status of a research submission"""
 
     PENDING = "PENDING"
     ACCEPTED = "ACCEPTED"
@@ -17,7 +17,7 @@ class SubmissionStatus(Enum):
 
 
 class ReviewStatus(Enum):
-    """Status of a review assignment."""
+    """Status of a review assignment"""
 
     ASSIGNED = "ASSIGNED"
     IN_PROGRESS = "IN_PROGRESS"
@@ -26,7 +26,7 @@ class ReviewStatus(Enum):
 
 @dataclass
 class ResearchOutput:
-    """Data structure for research output submission."""
+    """Data structure for research output submission"""
 
     id: str
     researcher_id: str
@@ -38,7 +38,7 @@ class ResearchOutput:
 
 @dataclass
 class ReviewScore:
-    """Data structure for a reviewer's score."""
+    """Data structure for a reviewer's score"""
 
     reviewer_id: str
     submission_id: str

@@ -1,4 +1,4 @@
-"""Notification + decision rules (baseline, mirroring the sequence diagram)."""
+"""Notification + decision rules"""
 
 from __future__ import annotations
 
@@ -10,7 +10,7 @@ from .validation import ValidationManager
 
 
 class NotificationService:
-    """Handles notification logic and final evaluation decision making."""
+    """Handles notification logic and final evaluation decision making"""
 
     def __init__(self):
         self.notifications: List[Dict] = []

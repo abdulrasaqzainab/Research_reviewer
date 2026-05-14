@@ -1,4 +1,4 @@
-"""Validation-related behavior."""
+"""Validation-related behavior"""
 
 from __future__ import annotations
 
@@ -6,7 +6,7 @@ from typing import List, Tuple
 
 
 class ValidationManager:
-    """Manages validation of research submissions."""
+    """Manages validation of research submissions"""
 
     def __init__(self):
         self.validation_errors: List[Tuple[str, str]] = []

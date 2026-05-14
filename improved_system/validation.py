@@ -1,4 +1,4 @@
-"""Validation for the improved research system."""
+"""Validation for the improved research system"""
 
 from __future__ import annotations
 
@@ -8,7 +8,7 @@ from .models import Submission, ValidationResult
 
 
 class Validator:
-    """Validates submissions before persistence."""
+    """Validates submissions before persistence"""
 
     def validate(self, submission: Submission) -> ValidationResult:
         errors: List[str] = []
